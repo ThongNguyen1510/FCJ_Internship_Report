@@ -1,59 +1,27 @@
 ---
 title: "Worklog Tuần 5"
 date: 2024-01-01
-weight: 1
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 5:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Dịch các bài blog kỹ thuật và tham gia Event 1.
+* Cấu hình giả lập thiết bị biên và cài đặt thông tin xác thực trên AWS IoT Core.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | Dịch Blog 3: 'Mô hình thiết kế Serverless để thu thập dữ liệu y tế'. | 18/05/2026 | 18/05/2026 | [Blog 3](3-BlogsTranslated/3.3-Blog3/) |
+| 3 | Tham gia Event 1: 'GenAI-powered App-DB Modernization workshop' và ghi nhận các nội dung chính. | 19/05/2026 | 19/05/2026 | [Báo cáo Event 1](4-EventParticipated/4.1-Event1/) |
+| 4 | Cài đặt và cấu hình môi trường Docker trên thiết bị biên giả lập Raspberry Pi. | 20/05/2026 | 20/05/2026 |  |
+| 5 | Tạo IoT Things, phát hành certificate và cấu hình AWS IoT Policy bảo mật. | 21/05/2026 | 21/05/2026 | <https://docs.aws.amazon.com/iot/> |
+| 6 | Viết mã kết nối MQTT an toàn trên ESP32 để gửi dữ liệu thời tiết giả lập lên IoT Core. | 22/05/2026 | 22/05/2026 | <https://docs.aws.amazon.com/iot/> |
 
 
-### Kết quả đạt được tuần 5:
+### Kết quả đạt được trong tuần 5:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Tham gia Event 1 và tiếp thu kiến thức về cơ sở dữ liệu hiện đại tích hợp GenAI.
+* Thiết lập thành công luồng dữ liệu MQTT an toàn từ thiết bị biên lên AWS IoT Core.
