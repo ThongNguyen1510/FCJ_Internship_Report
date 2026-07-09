@@ -8,19 +8,20 @@ pre: " <b> 1.9. </b> "
 
 ### Week 9 Goals:
 
-* Attend Event 2 and model the manual website monitor architecture inside Terraform HCL.
-* Configure flexible, parameterized project variables.
+* Attend Event 2 and configure SNS failure alert subscriptions.
+* Study system optimization under the Reliability pillar.
+* Learn enterprise backup schemes, VPC network integration, and high availability systems.
 
 ### Tasks implemented this week:
 | Day | Task | Start Date | End Date | Source |
 | --- | --- | --- | --- | --- |
-| Mon | Establish the Terraform directory: configure the AWS provider in `main.tf` and variables in `variables.tf`. | 15/06/2026 | 15/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
-| Tue | Write resource declarations for the AWS Lambda function, DynamoDB table, SNS Topic, and EventBridge rule. | 16/06/2026 | 16/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
-| Wed | Attend Event 2 (FCAJ Community Day - Conference Call) and research AI agent architectures and CloudFront. | 17/06/2026 | 17/06/2026 | [](4-EventParticipated/4.2-Event2/) |
-| Thu | Utilize the Terraform `archive_file` block to dynamically compress the Lambda Python source folder. | 18/06/2026 | 18/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
-| Fri | Declare IAM roles and policy attachment blocks to grant Lambda appropriate S3, SNS, and DynamoDB access. | 19/06/2026 | 19/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
+| Mon | Study backup managers: 'Data Protection with AWS Backup' and 'Snapshot Automation with Amazon EBS Data Lifecycle Manager'. | 15/06/2026 | 15/06/2026 | <https://docs.aws.amazon.com/aws-backup/> |
+| Tue | Explore network linking: 'Network Integration with VPC Peering' and 'Centralized Network Management with AWS Transit Gateway'. | 16/06/2026 | 16/06/2026 | <https://docs.aws.amazon.com/vpc/> |
+| Wed | Attend Event 2 (FCAJ Community Day - Conference Call) examining AI agent workflows and CloudFront edge architectures. | 17/06/2026 | 17/06/2026 | [](4-EventParticipated/4.2-Event2/) |
+| Thu | Study messaging patterns: 'Messaging Systems with SQS and SNS'. Provision an SNS topic to receive Lambda check alert notifications via email. | 18/06/2026 | 18/06/2026 | <https://docs.aws.amazon.com/sns/> |
+| Fri | Research shared filesystems and failovers: 'Amazon EBS Multi-Attach' and 'SQL Server High Availability on AWS'. | 19/06/2026 | 19/06/2026 |  |
 
 ### Week 9 Achievements:
 
-* Published Event 2 learning report.
-* Completed the full Infrastructure as Code scripts for automated website status monitoring.
+* Completed Event 2 report writing.
+* Configured a working real-time SNS email subscriber linked to the monitoring function.

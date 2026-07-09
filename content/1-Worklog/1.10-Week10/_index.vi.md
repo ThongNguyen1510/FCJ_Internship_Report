@@ -8,19 +8,20 @@ pre: " <b> 1.10. </b> "
 
 ### Mục tiêu tuần 10:
 
-* Triển khai hạ tầng đám mây tự động bằng Terraform và cấu hình giám sát cảnh báo.
-* Thiết lập hệ thống kiểm soát chi phí đầu tư đám mây và viết tài liệu hướng dẫn.
+* Nghiên cứu chuyên đề Tối ưu hóa hệ thống AWS - phần Hiệu năng (Performance).
+* Tìm hiểu công nghệ Container (Docker/ECS) và các quy trình tự động triển khai (CodePipeline).
+* Chuyển đổi và triển khai tự động toàn bộ hạ tầng giám sát bằng mã Terraform.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | Chạy câu lệnh `terraform init` và `terraform plan` để kiểm tra logic hạ tầng trước khi khởi tạo. | 22/06/2026 | 22/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
-| 3 | Thực hiện `terraform apply` để triển khai toàn bộ hệ thống giám sát website tự động lên AWS. | 23/06/2026 | 23/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
-| 4 | Cấu hình cảnh báo CloudWatch Alarm giám sát số lượng lỗi (Errors metric) phát sinh khi Lambda thực thi. | 24/06/2026 | 24/06/2026 | <https://docs.aws.amazon.com/AmazonCloudWatch/> |
-| 5 | Thiết lập cảnh báo ngân sách chi phí AWS Budgets để nhận cảnh báo email nếu hóa đơn vượt ngưỡng Free Tier. | 25/06/2026 | 25/06/2026 | <https://docs.aws.amazon.com/awsaccountbilling/> |
-| 6 | Viết tài liệu kỹ thuật chi tiết hướng dẫn vận hành, kiểm tra hoạt động hệ thống qua nhật ký CloudWatch Logs. | 26/06/2026 | 26/06/2026 |  |
+| 2 | Tìm hiểu bài lab: 'Containerization with Docker' và 'Container Orchestration with Amazon ECS' (cùng ECS with CDK). | 22/06/2026 | 22/06/2026 | <https://docs.aws.amazon.com/AmazonECS/> |
+| 3 | Nghiên cứu quy trình CI/CD qua bài lab: 'CI/CD Pipeline with AWS CodePipeline' và 'Automated Deployments with AWS CodePipeline'. | 23/06/2026 | 23/06/2026 | <https://docs.aws.amazon.com/codepipeline/> |
+| 4 | Khảo sát 'Hybrid Storage with AWS Storage Gateway' và 'Workflow Orchestration with AWS Step Functions'. | 24/06/2026 | 24/06/2026 | <https://docs.aws.amazon.com/step-functions/> |
+| 5 | Viết mã nguồn Terraform HCL khai báo các tài nguyên Lambda, DynamoDB, SNS và CloudWatch Alarm của dự án giám sát website. | 25/06/2026 | 25/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
+| 6 | Thực hiện chạy lệnh `terraform apply` để triển khai hạ tầng tự động, ghi nhận kết quả chạy thành công. | 26/06/2026 | 26/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
 
 ### Kết quả đạt được trong tuần 10:
 
-* Triển khai tự động hóa thành công toàn bộ hệ thống bằng Terraform.
-* Thiết lập thành công cơ chế quản lý ngân sách và cảnh báo lỗi chủ động cho hệ thống.
+* Nắm rõ kiến trúc Container của Docker và ECS.
+* Triển khai tự động hóa thành công 100% dự án giám sát website lên đám mây thông qua Terraform.

@@ -8,19 +8,20 @@ pre: " <b> 1.7. </b> "
 
 ### Week 7 Goals:
 
-* Translate the designated technical blog post.
-* Integrate Amazon SNS (Simple Notification Service) to send email alerts on site failures.
+* Translate the designated technical blog.
+* Deep dive into system optimization under the Security pillar.
+* Learn enterprise identity federation, credential rotations, and data encryption techniques.
 
 ### Tasks implemented this week:
 | Day | Task | Start Date | End Date | Source |
 | --- | --- | --- | --- | --- |
 | Mon | Translate Blog 5: 'Building a Large-Scale Data Pipeline for IoT Analytics'. | 01/06/2026 | 01/06/2026 | [](3-BlogsTranslated/3.5-Blog5/) |
-| Tue | Study Amazon SNS architectures, topic definitions, and protocols (Email, SMS, HTTP). | 02/06/2026 | 02/06/2026 | <https://docs.aws.amazon.com/sns/> |
-| Wed | Create an SNS Topic, register an email subscriber, and confirm the subscription invitation. | 03/06/2026 | 03/06/2026 | <https://docs.aws.amazon.com/sns/> |
-| Thu | Code failure alerts: invoke SNS publish API from Lambda if HTTP codes return non-200. | 04/06/2026 | 04/06/2026 | <https://docs.aws.amazon.com/sns/> |
-| Fri | Conduct failure simulation tests, checking for email delivery delays when pinging broken hosts. | 05/06/2026 | 05/06/2026 |  |
+| Tue | Study identity management: 'Identity Federation with AWS Single Sign-On' and 'IAM Permission Boundaries'. | 02/06/2026 | 02/06/2026 | <https://docs.aws.amazon.com/singlesignon/> |
+| Wed | Study lab: 'Access Control with IAM Policies and Conditions' and review 'Security Compliance with AWS Security Hub'. | 03/06/2026 | 03/06/2026 | <https://docs.aws.amazon.com/securityhub/> |
+| Thu | Complete lab: 'Encryption with AWS Key Management Service (KMS)' to protect data and study 'Amazon Macie'. | 04/06/2026 | 04/06/2026 | <https://docs.aws.amazon.com/kms/> |
+| Fri | Practice securing secrets: 'Credentials Management with AWS Secrets Manager' and audit 'S3 Security Best Practices'. | 05/06/2026 | 05/06/2026 | <https://docs.aws.amazon.com/secretsmanager/> |
 
 ### Week 7 Achievements:
 
-* Completed translation for Blog 5.
-* Configured a functional, low-latency email warning system using Amazon SNS.
+* Finished Blog 5 translation.
+* Mastered credential security rotation (Secrets Manager), envelope encryption (KMS), and IAM security scopes.

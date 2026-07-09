@@ -8,19 +8,20 @@ pre: " <b> 1.9. </b> "
 
 ### Mục tiêu tuần 9:
 
-* Tham gia Event 2 và chuyển đổi toàn bộ hạ tầng đã tạo thủ công sang mã Terraform HCL.
-* Thiết lập các biến cấu hình dự án linh hoạt.
+* Tham gia Event 2 và tích hợp cơ chế cảnh báo thời gian thực SNS.
+* Nghiên cứu chuyên đề Tối ưu hóa hệ thống AWS - phần Độ tin cậy (Reliability).
+* Học cách sao lưu tài nguyên và liên kết mạng.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | Xây dựng cấu trúc thư mục code Terraform: Khai báo AWS Provider (`main.tf`) và viết các biến đầu vào (`variables.tf`). | 15/06/2026 | 15/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
-| 3 | Viết mã Terraform định nghĩa các tài nguyên AWS: Lambda, DynamoDB, SNS Topic và EventBridge Rules. | 16/06/2026 | 16/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
+| 2 | Nghiên cứu sao lưu tự động qua bài lab: 'Data Protection with AWS Backup' và 'Snapshot Automation with Amazon EBS Data Lifecycle Manager'. | 15/06/2026 | 15/06/2026 | <https://docs.aws.amazon.com/aws-backup/> |
+| 3 | Tìm hiểu liên kết mạng riêng: 'Network Integration with VPC Peering' và 'Centralized Network Management with AWS Transit Gateway'. | 16/06/2026 | 16/06/2026 | <https://docs.aws.amazon.com/vpc/> |
 | 4 | Tham gia Event 2 (FCAJ Community Day - Conference Call) tìm hiểu multi-agent, CloudFront, LLM non-determinism. | 17/06/2026 | 17/06/2026 | [](4-EventParticipated/4.2-Event2/) |
-| 5 | Sử dụng nguồn dữ liệu `archive_file` trong Terraform để tự động nén thư mục code Python của Lambda. | 18/06/2026 | 18/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
-| 6 | Định nghĩa IAM Role và IAM Policy gán quyền ghi bảng DynamoDB và đăng bài SNS cho Lambda bằng Terraform. | 19/06/2026 | 19/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
+| 5 | Học hệ thống tin nhắn qua bài lab: 'Messaging Systems with SQS and SNS'. Thiết lập SNS Topic kết nối email cá nhân để Lambda gửi cảnh báo khi ping lỗi. | 18/06/2026 | 18/06/2026 | <https://docs.aws.amazon.com/sns/> |
+| 6 | Nghiên cứu giải pháp lưu trữ dùng chung: 'Shared Storage with Amazon EBS Multi-Attach' và 'SQL Server/Windows Server High Availability on AWS'. | 19/06/2026 | 19/06/2026 |  |
 
 ### Kết quả đạt được trong tuần 9:
 
-* Tham gia Event 2 và rút ra nhiều kinh nghiệm quý báu.
-* Hoàn thành bản thảo mã nguồn Terraform đầy đủ cho toàn bộ hạ tầng giám sát website.
+* Hoàn thành thu hoạch Event 2 đầy đủ.
+* Thiết lập thành công SNS Topic tự động gửi thông báo lỗi sập website về Email.

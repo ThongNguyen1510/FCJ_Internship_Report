@@ -8,19 +8,20 @@ pre: " <b> 1.3. </b> "
 
 ### Mục tiêu tuần 3:
 
-* Tìm hiểu nền tảng mạng ảo VPC và các thành phần định tuyến trên AWS.
-* Triển khai kiến trúc mạng hai lớp cô lập an toàn sử dụng public/private subnet.
+* Nghiên cứu các giải pháp tự động giãn nở máy chủ (Auto Scaling) và giám sát chỉ số (CloudWatch).
+* Tìm hiểu hệ thống phân giải tên miền Route 53 và cơ sở dữ liệu NoSQL DynamoDB.
+* Tìm hiểu dịch vụ phân phối nội dung CDN (CloudFront) và điện toán tại biên (Lambda@Edge).
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | Tìm hiểu cấu trúc mạng Amazon VPC: CIDR block, Subnet (Public/Private), Route Table và Internet Gateway (IGW). | 04/05/2026 | 04/05/2026 | <https://docs.aws.amazon.com/vpc/> |
-| 3 | Cấu hình NAT Gateway để cho phép các máy chủ trong Private Subnet truy cập internet tải bản cập nhật. | 05/05/2026 | 05/05/2026 | <https://docs.aws.amazon.com/vpc/> |
-| 4 | So sánh và thực hành cấu hình bảo mật: Security Group (stateful) vs Network ACL (stateless). | 06/05/2026 | 06/05/2026 | <https://docs.aws.amazon.com/vpc/> |
-| 5 | Khởi chạy máy chủ EC2 trong Private Subnet và thiết lập kết nối gián tiếp qua Bastion Host ở Public Subnet. | 07/05/2026 | 07/05/2026 | <https://docs.aws.amazon.com/vpc/> |
-| 6 | Sử dụng VPC Reachability Analyzer để kiểm định định tuyến và tìm lỗi cấu hình mạng. | 08/05/2026 | 08/05/2026 | <https://docs.aws.amazon.com/vpc/> |
+| 2 | Thực hành bài lab: 'Scaling Applications with EC2 Auto Scaling' - thiết lập Auto Scaling Group và Load Balancer. | 04/05/2026 | 04/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | Thực hành bài lab: 'Monitoring with Amazon CloudWatch' - theo dõi chỉ số CPU, thiết lập CloudWatch Alarm. | 05/05/2026 | 05/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | Nghiên cứu bài lab: 'Hybrid DNS Management with Amazon Route 53' và 'NoSQL Database Essentials with Amazon DynamoDB'. | 06/05/2026 | 06/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | Tìm hiểu bài lab: 'In-Memory Caching with Amazon ElastiCache' và 'Content Delivery with Amazon CloudFront'. | 07/05/2026 | 07/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | Nghiên cứu 'Edge Computing with CloudFront and Lambda@Edge', tìm hiểu 'Windows Workloads on AWS' và 'Directory Services with AWS Managed Microsoft AD'. | 08/05/2026 | 08/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được trong tuần 3:
 
-* Tự thiết kế và cấu hình hoàn chỉnh một hệ thống mạng ảo VPC tùy chỉnh từ đầu.
-* Nắm vững nguyên lý bảo mật nhiều lớp giữa các lớp mạng công cộng và nội bộ.
+* Hiểu cơ chế vận hành Auto Scaling Group và hệ thống cảnh báo CloudWatch.
+* Nắm vững nguyên lý hoạt động của cơ sở dữ liệu DynamoDB và giải pháp phân phối biên CloudFront.

@@ -8,19 +8,20 @@ pre: " <b> 1.6. </b> "
 
 ### Week 6 Goals:
 
-* Translate the designated technical blog post.
-* Migrate the site check script to AWS Lambda and configure Amazon DynamoDB for logging.
+* Translate the assigned technical blog.
+* Learn resource right-sizing, cost control delegations, VPC traffic logging, and local IDE setups.
+* Draft the Project Proposal for the website monitor system.
 
 ### Tasks implemented this week:
 | Day | Task | Start Date | End Date | Source |
 | --- | --- | --- | --- | --- |
 | Mon | Translate Blog 4: 'Fine-Grained Access Control with Amazon Cognito'. | 25/05/2026 | 25/05/2026 | [](3-BlogsTranslated/3.4-Blog4/) |
-| Tue | Deploy the Python ping logic to AWS Lambda and define targeted websites using environment variables. | 26/05/2026 | 26/05/2026 | <https://docs.aws.amazon.com/lambda/> |
-| Wed | Study Amazon DynamoDB NoSQL key-value patterns and partition/sort key designs. | 27/05/2026 | 27/05/2026 | <https://docs.aws.amazon.com/amazondynamodb/> |
-| Thu | Create a DynamoDB table structured for metrics logs (URL, Timestamp, Status, Latency). | 28/05/2026 | 28/05/2026 | <https://docs.aws.amazon.com/amazondynamodb/> |
-| Fri | Implement Python SDK `boto3` inside the Lambda code to write results to DynamoDB. | 29/05/2026 | 29/05/2026 | <https://docs.aws.amazon.com/amazondynamodb/> |
+| Tue | Explore lab: 'Right-Sizing with EC2 Resource Optimization' and monitor flows via 'VPC Flow Logs'. | 26/05/2026 | 26/05/2026 | <https://docs.aws.amazon.com/vpc/> |
+| Wed | Study labs: 'Billing Console Delegation', 'Managing Quotas with Service Quotas' and 'Cost and Usage Management'. | 27/05/2026 | 27/05/2026 | <https://docs.aws.amazon.com/awsaccountbilling/> |
+| Thu | Configure workspace tools: 'AWS Toolkit for VS Code'. Write the initial draft of the Project Proposal. | 28/05/2026 | 28/05/2026 | [](2-Proposal/) |
+| Fri | Participate in training modules: 'Infrastructure as Code Workshop Series' using Terraform HCL. | 29/05/2026 | 29/05/2026 |  |
 
 ### Week 6 Achievements:
 
-* Completed translation for Blog 4.
-* Successfully established the Lambda-to-DynamoDB data logging integration.
+* Completed Blog 4 translation and organized the project roadmap proposal.
+* Acquired network traffic capture skills using VPC Flow Logs and configured the AWS Toolkit local suite.
