@@ -8,28 +8,28 @@ pre: " <b> 1. </b> "
 
 **On this page**, you will find the summary of my weekly worklog throughout the 12-week internship period (from 17/04/2026 to 10/07/2026) at Amazon Web Services Vietnam.
 
-The weekly progression is outline below:
+The weekly progression is outlined below:
 
-**Week 1:** [Getting familiar with AWS and basic AWS services](1.1-week1/)
+**Week 1:** [Learn foundational AWS services and configure the AWS CLI](1.1-week1/)
 
-**Week 2:** [Learning IAM security policies and Amazon S3 storage features](1.2-week2/)
+**Week 2:** [Study Amazon VPC networking essentials and Amazon S3 static hosting](1.2-week2/)
 
-**Week 3:** [Designing custom VPC networks and secure routing layouts](1.3-week3/)
+**Week 3:** [Configure Auto Scaling, CloudWatch monitoring, and CloudFront CDN distribution](1.3-week3/)
 
-**Week 4:** [Translating technical blogs and drafting IoT platform proposal](1.4-week4/)
+**Week 4:** [Translate Blog 1 & 2 and study serverless Lambda and advanced CloudWatch](1.4-week4/)
 
-**Week 5:** [Setting up IoT Core and establishing MQTT telemetry streams](1.5-week5/)
+**Week 5:** [Translate Blog 3, attend Event 1, and draft the serverless website monitor proposal](1.5-week5/)
 
-**Week 6:** [Developing Lambda handlers and configuring S3 raw ingestion](1.6-week6/)
+**Week 6:** [Translate Blog 4, study EC2 resource optimization, VPC Flow Logs, and IaC](1.6-week6/)
 
-**Week 7:** [Building automated ETL data pipelines with AWS Glue](1.7-week7/)
+**Week 7:** [Translate Blog 5 and study security SSO, Permission Boundaries, and Secrets Manager](1.7-week7/)
 
-**Week 8:** [Designing Next.js dashboards and Cognito authentication pools](1.8-week8/)
+**Week 8:** [Translate Blog 6, configure VPC Endpoints, AWS WAF, Cognito, and code Lambda ping](1.8-week8/)
 
-**Week 9:** [Deploying web applications on AWS Amplify with continuous integration](1.9-week9/)
+**Week 9:** [Attend Event 2, study Backup, Transit Gateway, and configure SQS/SNS alerts](1.9-week9/)
 
-**Week 10:** [Hardening security credentials and monitoring resource budget costs](1.10-week10/)
+**Week 10:** [Study Docker, ECS, CodePipeline, and deploy the monitor system using Terraform](1.10-week10/)
 
-**Week 11:** [Designing and drafting the hands-on VPC Endpoint workshop](1.11-week11/)
+**Week 11:** [Study cost optimization (Athena/Glue) and draft the VPC Endpoint Workshop guide](1.11-week11/)
 
-**Week 12:** [Conducting the workshop, gathering feedback, and finalizing report](1.12-week12/)
+**Week 12:** [Host the VPC Endpoint Workshop, gather feedback, self-assess, and present final report](1.12-week12/)
