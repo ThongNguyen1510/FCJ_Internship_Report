@@ -8,20 +8,19 @@ pre: " <b> 1.10. </b> "
 
 ### Mục tiêu tuần 10:
 
-* Thực hiện kiểm thử tải và thắt chặt bảo mật cho backend serverless.
-* Cấu hình cảnh báo ngân sách AWS Budget để quản lý chi phí.
+* Triển khai hạ tầng đám mây tự động bằng Terraform và cấu hình giám sát cảnh báo.
+* Thiết lập hệ thống kiểm soát chi phí đầu tư đám mây và viết tài liệu hướng dẫn.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | Phân quyền chi tiết IAM policy cho các hàm Lambda và API Gateway. | 22/06/2026 | 22/06/2026 | <https://docs.aws.amazon.com/iam/> |
-| 3 | Cấu hình AWS Budgets và CloudWatch Alarm để tự động gửi thông báo khi vượt ngưỡng chi phí. | 23/06/2026 | 23/06/2026 | <https://docs.aws.amazon.com/awsaccountbilling/> |
-| 4 | Thực hiện giả lập tải cao để kiểm tra giới hạn (throttling) và xử lý lỗi của Lambda. | 24/06/2026 | 24/06/2026 |  |
-| 5 | Cấu hình bộ đệm lưu trữ dữ liệu cục bộ trên Docker của thiết bị biên Raspberry Pi đề phòng mất mạng. | 25/06/2026 | 25/06/2026 |  |
-| 6 | Viết tài liệu kỹ thuật chi tiết hướng dẫn vận hành mã nguồn thiết bị biên. | 26/06/2026 | 26/06/2026 |  |
-
+| 2 | Chạy câu lệnh `terraform init` và `terraform plan` để kiểm tra logic hạ tầng trước khi khởi tạo. | 22/06/2026 | 22/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
+| 3 | Thực hiện `terraform apply` để triển khai toàn bộ hệ thống giám sát website tự động lên AWS. | 23/06/2026 | 23/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
+| 4 | Cấu hình cảnh báo CloudWatch Alarm giám sát số lượng lỗi (Errors metric) phát sinh khi Lambda thực thi. | 24/06/2026 | 24/06/2026 | <https://docs.aws.amazon.com/AmazonCloudWatch/> |
+| 5 | Thiết lập cảnh báo ngân sách chi phí AWS Budgets để nhận cảnh báo email nếu hóa đơn vượt ngưỡng Free Tier. | 25/06/2026 | 25/06/2026 | <https://docs.aws.amazon.com/awsaccountbilling/> |
+| 6 | Viết tài liệu kỹ thuật chi tiết hướng dẫn vận hành, kiểm tra hoạt động hệ thống qua nhật ký CloudWatch Logs. | 26/06/2026 | 26/06/2026 |  |
 
 ### Kết quả đạt được trong tuần 10:
 
-* Tăng cường tính an toàn cho hệ thống và kiểm soát chi phí tự động.
-* Hoàn thành các bài kiểm tra tải hoạt động ổn định cho các API telemetry.
+* Triển khai tự động hóa thành công toàn bộ hệ thống bằng Terraform.
+* Thiết lập thành công cơ chế quản lý ngân sách và cảnh báo lỗi chủ động cho hệ thống.

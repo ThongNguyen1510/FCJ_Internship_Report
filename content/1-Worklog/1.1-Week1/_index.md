@@ -1,28 +1,27 @@
 ---
-title: "Week 1 Worklog"
+title: "Worklog Week 1"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-### Week 1 Objectives:
+### Week 1 Goals:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Onboard with the First Cloud Journey team and set up development environments.
+* Learn fundamental AWS cloud services, navigate the console, and configure the AWS CLI.
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
+### Tasks implemented this week:
+| Day | Task | Start Date | End Date | Source |
 | --- | --- | --- | --- | --- |
-| 6 | Onboarding, get introduced to mentors and team members of First Cloud Journey, read group guidelines. | 17/04/2026 | 17/04/2026 |  |
-| 2 | Create and configure AWS Free Tier account, install AWS CLI on local machine. | 20/04/2026 | 20/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | Study core AWS concepts: Cloud Computing definitions, Global Infrastructure (Regions, AZs), and pricing models. | 21/04/2026 | 21/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | Learn EC2 service fundamentals: AMI, instance types, storage options (EBS). | 22/04/2026 | 22/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | Hands-on: launch an EC2 instance, configure security groups, connect via SSH. | 23/04/2026 | 23/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | Study Elastic IP and attach additional EBS volume to EC2 instance. | 24/04/2026 | 24/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-
+| Fri | Attend the onboarding session, meet mentors and cohort members, and read internship guidelines. | 17/04/2026 | 17/04/2026 |  |
+| Mon | Create and configure a personal AWS Free Tier account, enabling MFA authentication. | 20/04/2026 | 20/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Tue | Install the AWS CLI locally and configure access keys to allow command-line actions. | 21/04/2026 | 21/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | Study core cloud computing definitions, global infrastructure (Regions, AZs), and pricing models. | 22/04/2026 | 22/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thu | Learn Amazon EC2 essentials: AMIs, instance types, and storage. Launch a test EC2 instance. | 23/04/2026 | 23/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | Attach EBS volumes to the running EC2 instance, adjust Security Groups, and associate an Elastic IP. | 24/04/2026 | 24/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 1 Achievements:
 
-* Understood the structure and goals of the First Cloud Journey internship.
-* Successfully configured AWS account, CLI, and basic EC2 infrastructure.
+* Understood the expectations and milestones of the 12-week internship.
+* Successfully configured local CLI credentials and verified EC2 server operations.

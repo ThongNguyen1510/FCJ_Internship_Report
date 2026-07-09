@@ -1,27 +1,26 @@
 ---
-title: "Week 11 Worklog"
+title: "Worklog Week 11"
 date: 2024-01-01
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-### Week 11 Objectives:
+### Week 11 Goals:
 
-* Design and draft hands-on content for the AWS VPC Endpoint Workshop.
-* Configure simulated on-premises routing environments.
+* Create and document instructions for the AWS VPC Endpoint Hands-on Workshop.
+* Set up private endpoint routes and dry-run laboratory scenarios.
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
+### Tasks implemented this week:
+| Day | Task | Start Date | End Date | Source |
 | --- | --- | --- | --- | --- |
-| 2 | Outline workshop content: Comparison of S3 access via Internet Gateway vs. Gateway Endpoint. | 29/06/2026 | 29/06/2026 | [Workshop Overview](5-Workshop/) |
-| 3 | Write hands-on guide section 5.3 detailing VPC Endpoint setup for Amazon S3. | 30/06/2026 | 30/06/2026 | [VPC Endpoint Guide](5-Workshop/5.3-S3-vpc/) |
-| 4 | Deploy simulated on-premises configurations in AWS to model external access requests. | 01/07/2026 | 01/07/2026 | [On-prem Setup Guide](5-Workshop/5.4-S3-onprem/) |
-| 5 | Define secure endpoint policies restricting S3 operations inside the workshop (section 5.5). | 02/07/2026 | 02/07/2026 | [Policy Configuration](5-Workshop/5.5-Policy/) |
-| 6 | Validate the step-by-step instructions to ensure flawless workshop execution. | 03/07/2026 | 03/07/2026 |  |
-
+| Mon | Outline the workshop structure: comparing S3 connections via the public internet vs. a private VPC Gateway Endpoint. | 29/06/2026 | 29/06/2026 | [](5-Workshop/) |
+| Tue | Write detailed setup guidelines for Section 5.3: Creating a Gateway VPC Endpoint for Amazon S3. | 30/06/2026 | 30/06/2026 | [](5-Workshop/5.3-S3-vpc/) |
+| Wed | Write Section 5.4 instructions for creating virtual on-premises server environments connecting privately to AWS. | 01/07/2026 | 01/07/2026 | [](5-Workshop/5.4-S3-onprem/) |
+| Thu | Write Section 5.5 instructions for configuring custom Endpoint Policies to restrict access levels. | 02/07/2026 | 02/07/2026 | [](5-Workshop/5.5-Policy/) |
+| Fri | Walk through every instruction step-by-step in the sandbox account to remove typographical or routing errors. | 03/07/2026 | 03/07/2026 |  |
 
 ### Week 11 Achievements:
 
-* Completed the structural draft of the VPC Endpoint hands-on workshop.
-* Successfully verified the simulated networking environments for S3 Endpoint access.
+* Finalized the comprehensive training materials for the VPC Endpoint Workshop.
+* Verified mock network routing for secure private S3 connectivity.

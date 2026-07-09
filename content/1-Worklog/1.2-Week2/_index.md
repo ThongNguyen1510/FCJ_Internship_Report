@@ -1,27 +1,26 @@
 ---
-title: "Week 2 Worklog"
+title: "Worklog Week 2"
 date: 2024-01-01
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-### Week 2 Objectives:
+### Week 2 Goals:
 
-* Learn about AWS Identity and Access Management (IAM) and security practices.
-* Understand Amazon S3 storage classes, bucket policies, and CLI operations.
+* Master Identity and Access Management (IAM) security concepts.
+* Study Amazon S3 storage classes, object versioning, and bucket policies.
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
+### Tasks implemented this week:
+| Day | Task | Start Date | End Date | Source |
 | --- | --- | --- | --- | --- |
-| 2 | Study IAM concepts: Users, Groups, Roles, Policies, and multi-factor authentication (MFA). | 27/04/2026 | 27/04/2026 | <https://docs.aws.amazon.com/iam/> |
-| 3 | Create customized IAM policies and practice assuming IAM roles for cross-service access. | 28/04/2026 | 28/04/2026 | <https://docs.aws.amazon.com/iam/> |
-| 4 | Study Amazon S3 features: Buckets, Objects, Storage Classes, lifecycle rules, and versioning. | 29/04/2026 | 29/04/2026 | <https://docs.aws.amazon.com/s3/> |
-| 5 | Practice S3 operations using AWS CLI (upload, download, sync commands). | 30/04/2026 | 30/04/2026 | <https://docs.aws.amazon.com/s3/> |
-| 6 | Deploy a static website on Amazon S3 and configure custom bucket policies. | 01/05/2026 | 01/05/2026 | <https://docs.aws.amazon.com/s3/> |
-
+| Mon | Study IAM core concepts: Users, Groups, Roles, Policies, and the Least Privilege rule. | 27/04/2026 | 27/04/2026 | <https://docs.aws.amazon.com/iam/> |
+| Tue | Write custom JSON IAM Policies and assign roles to enable cross-service interactions. | 28/04/2026 | 28/04/2026 | <https://docs.aws.amazon.com/iam/> |
+| Wed | Study Amazon S3 features: Buckets, Objects, Storage Classes, Lifecycles, and Versioning. | 29/04/2026 | 29/04/2026 | <https://docs.aws.amazon.com/s3/> |
+| Thu | Practice file uploads, downloads, and directory synchronizations using the AWS CLI for S3. | 30/04/2026 | 30/04/2026 | <https://docs.aws.amazon.com/s3/> |
+| Fri | Deploy a static website hosted on Amazon S3 and write a public-read S3 Bucket Policy. | 01/05/2026 | 01/05/2026 | <https://docs.aws.amazon.com/s3/> |
 
 ### Week 2 Achievements:
 
-* Mastered IAM security policies and roles configuration.
-* Configured secure S3 buckets and deployed static websites.
+* Understood secure IAM structure and policy authoring.
+* Configured a hosted static site on S3 with public read restrictions.

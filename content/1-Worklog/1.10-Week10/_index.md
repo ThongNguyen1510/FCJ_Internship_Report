@@ -1,27 +1,26 @@
 ---
-title: "Week 10 Worklog"
+title: "Worklog Week 10"
 date: 2024-01-01
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
 
-### Week 10 Objectives:
+### Week 10 Goals:
 
-* Conduct load testing and security hardening on the serverless backend.
-* Implement AWS budget alerts and monitor resource costs.
+* Execute the Terraform build, verify alarms, and configure billing safeguards.
+* Complete operational guides and enable logging analytics.
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
+### Tasks implemented this week:
+| Day | Task | Start Date | End Date | Source |
 | --- | --- | --- | --- | --- |
-| 2 | Configure fine-grained IAM policy execution roles for Lambda and API Gateway. | 22/06/2026 | 22/06/2026 | <https://docs.aws.amazon.com/iam/> |
-| 3 | Set up AWS Budgets and CloudWatch alarm configurations to prevent cost overruns. | 23/06/2026 | 23/06/2026 | <https://docs.aws.amazon.com/awsaccountbilling/> |
-| 4 | Conduct high-concurrency simulation test to monitor Lambda throttles and errors. | 24/06/2026 | 24/06/2026 |  |
-| 5 | Implement local data backup buffering on the Docker-based Raspberry Pi edge device. | 25/06/2026 | 25/06/2026 |  |
-| 6 | Compile technical documentation for the IoT Weather Station edge code. | 26/06/2026 | 26/06/2026 |  |
-
+| Mon | Initialize the state backend (`terraform init`) and execute dry-runs (`terraform plan`) to audit resource paths. | 22/06/2026 | 22/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
+| Tue | Deploy the infrastructure by running `terraform apply` to establish the serverless monitoring loop. | 23/06/2026 | 23/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
+| Wed | Create CloudWatch Alarms targeted at Lambda execution metrics to flag internal script errors. | 24/06/2026 | 24/06/2026 | <https://docs.aws.amazon.com/AmazonCloudWatch/> |
+| Thu | Configure AWS Budgets thresholds to email warning alerts if usage costs near Free Tier boundaries. | 25/06/2026 | 25/06/2026 | <https://docs.aws.amazon.com/awsaccountbilling/> |
+| Fri | Document instructions for testing site failures, querying logs, and interpreting alert emails. | 26/06/2026 | 26/06/2026 |  |
 
 ### Week 10 Achievements:
 
-* Hardened security postures of AWS roles and enabled automatic billing monitoring.
-* Successfully completed performance testing on backend telemetry APIs.
+* Automated the end-to-end serverless website monitor setup with a single CLI command.
+* Configured operational metrics logging and safety cost limits.

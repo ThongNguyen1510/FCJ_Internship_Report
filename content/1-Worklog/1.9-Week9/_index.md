@@ -1,27 +1,26 @@
 ---
-title: "Week 9 Worklog"
+title: "Worklog Week 9"
 date: 2024-01-01
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
 
-### Week 9 Objectives:
+### Week 9 Goals:
 
-* Deploy Next.js application using AWS Amplify hosting.
-* Attend Event 2 and perform end-to-end integration tests.
+* Attend Event 2 and model the manual website monitor architecture inside Terraform HCL.
+* Configure flexible, parameterized project variables.
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
+### Tasks implemented this week:
+| Day | Task | Start Date | End Date | Source |
 | --- | --- | --- | --- | --- |
-| 2 | Connect the Next.js project repository to AWS Amplify Console for hosting. | 15/06/2026 | 15/06/2026 | <https://docs.aws.amazon.com/amplify/> |
-| 3 | Configure continuous deployment (CI/CD) pipelines and environment variables in Amplify. | 16/06/2026 | 16/06/2026 | <https://docs.aws.amazon.com/amplify/> |
-| 4 | Attend Event 2: 'AWS Cloud Day and Modern Architecture Showcase' and take notes. | 17/06/2026 | 17/06/2026 | [Event 2 Report](4-EventParticipated/4.2-Event2/) |
-| 5 | Perform integration tests from ESP32 telemetry publishes to live dashboard graph displays. | 18/06/2026 | 18/06/2026 |  |
-| 6 | Identify and fix web application issues by analyzing AWS CloudWatch execution logs. | 19/06/2026 | 19/06/2026 | <https://docs.aws.amazon.com/cloudwatch/> |
-
+| Mon | Establish the Terraform directory: configure the AWS provider in `main.tf` and variables in `variables.tf`. | 15/06/2026 | 15/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
+| Tue | Write resource declarations for the AWS Lambda function, DynamoDB table, SNS Topic, and EventBridge rule. | 16/06/2026 | 16/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
+| Wed | Attend Event 2 (FCAJ Community Day - Conference Call) and research AI agent architectures and CloudFront. | 17/06/2026 | 17/06/2026 | [](4-EventParticipated/4.2-Event2/) |
+| Thu | Utilize the Terraform `archive_file` block to dynamically compress the Lambda Python source folder. | 18/06/2026 | 18/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
+| Fri | Declare IAM roles and policy attachment blocks to grant Lambda appropriate S3, SNS, and DynamoDB access. | 19/06/2026 | 19/06/2026 | <https://developer.hashicorp.com/terraform/tutorials> |
 
 ### Week 9 Achievements:
 
-* Successfully hosted the IoT Weather Web application online with Amplify.
-* Attended Event 2 to study industry-wide serverless architecture designs.
+* Published Event 2 learning report.
+* Completed the full Infrastructure as Code scripts for automated website status monitoring.

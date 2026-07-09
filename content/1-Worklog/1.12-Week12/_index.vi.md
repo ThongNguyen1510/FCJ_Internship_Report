@@ -8,20 +8,19 @@ pre: " <b> 1.12. </b> "
 
 ### Mục tiêu tuần 12:
 
-* Tổ chức buổi thực hành workshop và tổng hợp ý kiến đóng góp từ người tham gia.
-* Hoàn thiện báo cáo thực tập toàn diện và trình bày trước các mentor.
+* Tổ chức buổi thực hành workshop và tổng hợp các phản hồi từ người tham gia.
+* Hoàn thành các báo cáo tổng kết và thuyết trình kết quả thực tập trước hội đồng mentor.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | Tổ chức buổi hướng dẫn thực hành 'VPC Endpoint Workshop' cho các thành viên nhóm học tập. | 06/07/2026 | 06/07/2026 | [Workshop](5-Workshop/) |
-| 3 | Thu thập ý kiến phản hồi và cập nhật nội dung đóng góp vào chương 7. | 07/07/2026 | 07/07/2026 | [Ý kiến đóng góp](7-Feedback/) |
-| 4 | Hoàn tất tài liệu Tự đánh giá bản thân về kỹ năng và các bài học tích lũy. | 08/07/2026 | 08/07/2026 | [Tự đánh giá](6-Self-evaluation/) |
-| 5 | Kiểm tra định dạng giao diện, liên kết đường dẫn trên trang báo cáo Hugo. | 09/07/2026 | 09/07/2026 |  |
-| 6 | Thuyết trình báo cáo kết quả thực tập cuối kỳ với các mentor AWS và FCJ. | 10/07/2026 | 10/07/2026 |  |
-
+| 2 | Tổ chức buổi thực hành thực tế 'AWS VPC Endpoint Workshop' cho các thành viên trong nhóm. | 06/07/2026 | 06/07/2026 | [](5-Workshop/) |
+| 3 | Tổng hợp các nhận xét của người tham gia để cập nhật vào Chương 7 (Feedback). | 07/07/2026 | 07/07/2026 | [](7-Feedback/) |
+| 4 | Viết báo cáo Tự đánh giá cá nhân (Self-assessment) về chuyên môn và thái độ làm việc. | 08/07/2026 | 08/07/2026 | [](6-Self-evaluation/) |
+| 5 | Kiểm tra toàn diện hiển thị, cấu trúc liên kết nội bộ trên trang báo cáo Hugo cục bộ. | 09/07/2026 | 09/07/2026 |  |
+| 6 | Thuyết trình kết quả thực tập, bàn giao mã nguồn dự án giám sát website tự động cho Mentor AWS. | 10/07/2026 | 10/07/2026 |  |
 
 ### Kết quả đạt được trong tuần 12:
 
-* Tổ chức thành công buổi thực hành thực tế và ghi nhận nhiều đóng góp giá trị.
-* Được các mentor AWS đánh giá cao và hoàn tất xuất sắc kỳ thực tập 12 tuần.
+* Tổ chức workshop thực tế thành công và thu hút nhiều phản hồi tích cực.
+* Được các Mentor AWS ghi nhận kết quả và hoàn thành kỳ thực tập 12 tuần xuất sắc.
