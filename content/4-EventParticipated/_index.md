@@ -6,35 +6,31 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-> In this section, you should list and describe in detail the events you have participated in during your internship or work experience.  
-> 
-> Each event should be presented in the format Event 1, Event 2, Event 3…, along with the following details:
-> * Event name
-> * Date and time
-> * Location (if applicable)
-> * Your role in the event (attendee, event support, speaker, etc.)
-> * A brief description of the event’s content and main activities
-> * Outcomes or value gained (lessons learned, new skills, contribution to the team/project)
-> * This listing helps demonstrate your actual participation as well as the soft skills and experience you have gained from each event.
-
-During my internship, I participated in two events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
-
-### [Event 1](4.1-Event1/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
-
-&emsp;**Date & Time:** 09:00, August 13, 2025  
-
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-
-&emsp;**Role:** Attendee  
+During my internship, I participated in two major technical events hosted by First Cloud Journey (FCAJ). These events offered valuable insights into Platform Engineering, GenAIOps, Agentic AI software workflows, and modern cloud deployment best practices.
 
 ---
 
-### [Event 2](4.2-Event2/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
+### [Event 1: FCAJ Community Day](4.1-Event1/)  
+&emsp;**Event Name:** FCAJ Community Day  
+&emsp;**Date & Time:** Saturday, March 21, 9:00 AM - 12:00 PM  
+&emsp;**Location:** Bitexco Financial Tower, Ho Chi Minh City  
+&emsp;**Role:** Participant  
+&emsp;**Core Topics:** Modern Platform Engineering pipelines, GenAIOps implementations using Amazon Bedrock, EKS, and Langfuse, Agentic software shipping, enterprise GraphRAG workflows, and global content delivery optimizations with Amazon CloudFront.
 
-&emsp;**Date & Time:** 09:00, August 13, 2025  
+---
 
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+### [Event 2: FCAJ Community Day - Conference Call](4.2-Event2/)  
+&emsp;**Event Name:** FCAJ Community Day - Conference Call  
+&emsp;**Date & Time:** Saturday, May 23, 9:00 AM - 12:00 PM (GMT+7)  
+&emsp;**Location:** 36th Floor, Bitexco Financial Tower, Ho Chi Minh City  
+&emsp;**Role:** Participant  
+&emsp;**Core Topics:** Context-driven AI capabilities (Second AI Brain), 36-hour rapid prototype design (LotusHacks/UTMorpho case study), enterprise CloudFront origin defenses, resolving LLM non-determinism, and deploying enterprise Virtual Credit Underwriting Multi-Agent systems.
 
-&emsp;**Role:** Attendee  
+---
+
+### [Event 3: FCAJ Community Day](4.3-Event3/)  
+&emsp;**Event Name:** FCAJ Community Day (June Edition)  
+&emsp;**Date & Time:** Saturday, June 27, 9:00 AM - 12:00 PM  
+&emsp;**Location:** Bitexco Financial Tower, Ho Chi Minh City  
+&emsp;**Role:** Participant  
+&emsp;**Core Topics:** Autonomous cloud incident response (Deep Response Engine), voice AI conversations at scale (Nova Sonic), operational troubleshooting (AWS DevOps Agent), AI-powered workforce planning, and secure Model Context Protocol (MCP) private networking on Amazon Quick.

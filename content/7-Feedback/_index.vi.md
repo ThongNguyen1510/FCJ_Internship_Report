@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
->Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud Journey, giúp team FCJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
+Trong suốt quá trình tham gia chương trình First Cloud Journey, em đã có được những trải nghiệm học tập và làm việc cực kỳ bổ ích. Dưới đây là những chia sẻ và đóng góp ý kiến cá nhân của em nhằm giúp chương trình ngày càng hoàn thiện hơn.
 
 ### Đánh giá chung
 
@@ -28,14 +28,22 @@ Văn hóa công ty rất tích cực: mọi người tôn trọng lẫn nhau, l�
 **6. Chính sách / phúc lợi cho thực tập sinh**  
 Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về thời gian linh hoạt khi cần thiết. Ngoài ra, việc được tham gia các buổi đào tạo nội bộ là một điểm cộng lớn.
 
+---
 
-### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
+### Một số câu hỏi phản hồi khác
 
+*   **Điều bạn hài lòng nhất trong thời gian thực tập?**  
+    Em hài lòng nhất là sự nhiệt tình, kiên nhẫn hướng dẫn của các anh chị Mentor. Đồng thời, cơ hội được thiết lập và tự chạy hạ tầng đám mây thực tế bằng Terraform (IaC) thay vì chỉ học lý thuyết suông giúp em tự tin hơn rất nhiều khi làm việc với AWS.
+*   **Điều bạn nghĩ công ty cần cải thiện cho các thực tập sinh sau?**  
+    Em đề xuất nên xây dựng thêm các buổi sinh hoạt công nghệ (tech-sharing) hàng tuần giữa các thực tập sinh để mọi người chia sẻ các lỗi hay gặp hoặc các mẹo cấu hình hạ tầng.
+*   **Nếu giới thiệu cho bạn bè, bạn có khuyên họ thực tập ở đây không? Vì sao?**  
+    Em chắc chắn sẽ khuyên bạn bè tham gia. Đây là chương trình thực hành Cloud/DevOps thực tế tốt nhất hiện tại, mang lại trải nghiệm sát nhất với công việc thực tế cùng sự hỗ trợ của các chuyên gia AWS.
+
+---
 
 ### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+
+*   **Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?**  
+    Bổ sung thêm các bài tập nhóm (nhóm 2-3 người) để giả lập quy trình làm việc thực tế với git và phối hợp hạ tầng.
+*   **Bạn có muốn tiếp tục chương trình này trong tương lai?**  
+    Em rất mong muốn được tiếp tục đồng hành cùng cộng đồng First Cloud Journey, tham gia hỗ trợ kỹ thuật hoặc làm trợ giảng (helper) cho các khóa sau để truyền đạt lại kinh nghiệm.

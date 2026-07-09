@@ -6,13 +6,12 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-Trong suốt thời gian thực tập tại **[Tên công ty/tổ chức]** từ **[ngày bắt đầu]** đến **[ngày kết thúc]**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
-Tôi đã tham gia **[mô tả ngắn gọn dự án hoặc công việc chính]**, qua đó cải thiện kỹ năng **[liệt kê kỹ năng: lập trình, phân tích, viết báo cáo, giao tiếp…]**.  
+Trong suốt thời gian thực tập tại **First Cloud Journey (FCAJ)** từ **17/04/2026** đến **10/07/2026**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
+Tôi đã tham gia **thiết kế và triển khai Hệ thống giám sát Website tự động (Serverless) bằng Terraform, dịch thuật 6 bài viết công nghệ AWS và biên soạn tài liệu thực hành VPC Endpoint**, qua đó cải thiện kỹ năng **thiết kế kiến trúc Cloud, lập trình serverless (Python/Lambda), viết mã hạ tầng IaC (Terraform), làm việc nhóm, viết báo cáo và dịch thuật kỹ thuật**.  
 
 Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân thủ nội quy, và tích cực trao đổi với đồng nghiệp để nâng cao hiệu quả công việc.
 
 Để phản ánh một cách khách quan quá trình thực tập, tôi xin tự đánh giá bản thân dựa trên các tiêu chí dưới đây:
-
 
 | STT | Tiêu chí                            | Mô tả                                                                                            | Tốt | Khá | Trung bình |
 | --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | --- | --- | ---------- |
@@ -31,6 +30,6 @@ Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân t
 
 ### Cần cải thiện
 
-* Nâng cao tính kỹ luật, chấp hành nghiêm chỉnh nội quy của công ty hoặc bất kỳ trong một tổ chức nào
-* Cải thiện trong cách tư duy giải quyết vấn đề
-* Học cách giao tiếp tốt hơn trong giao tiếp hằng ngày và trong công việc, xử lý tình huống
+*   **Tính kỷ luật:** Nâng cao tính tự giác và tuân thủ chặt chẽ lịch trình bàn giao. Sử dụng nhiều hơn các công cụ CI/CD để tự động hóa kiểm định thay vì điều chỉnh thủ công.
+*   **Tư duy giải quyết vấn đề:** Rèn luyện khả năng phân tích lỗi hệ thống phân tán, truy vết log và khắc phục các vấn đề liên quan đến chính sách phân quyền IAM.
+*   **Kỹ năng giao tiếp:** Chủ động giao tiếp, trình bày báo cáo tiến độ và thảo luận sớm các vướng mắc kỹ thuật với Mentor để có giải pháp tối ưu.

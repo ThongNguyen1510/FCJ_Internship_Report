@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud Journey program. This will help the FCJ team improve any shortcomings based on the following aspects:
+During the First Cloud Journey program, I had an incredibly rewarding learning experience. Here is my personal feedback regarding the program and suggestions for future cohorts.
 
 ### Overall Evaluation
 
@@ -30,14 +30,20 @@ The company provides an internship allowance and offers flexible working hours w
 
 ---
 
-### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+### Additional Questions & Feedback
+
+*   **What did you find most satisfying during your internship?**  
+    The most satisfying aspect was the dedicated support from the mentors and the opportunity to work directly on enterprise-grade AWS services. Deploying resources programmatically using Terraform (IaC) helped bridge the gap between cloud theory and real-world system engineering.
+*   **What do you think the company should improve for future interns?**  
+    I suggest establishing small virtual tech-sharing sessions or weekly catch-ups among interns to share lessons learned and collaborate more closely.
+*   **If recommending to a friend, would you suggest they intern here? Why?**  
+    Yes, absolutely. FCAJ is an excellent environment for anyone aiming to become a Cloud Engineer or DevOps specialist. The structured learning tracks, hands-on labs, and expert mentorship provide a solid foundation for career growth.
 
 ---
 
 ### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+
+*   **Do you have any suggestions to improve the internship experience?**  
+    Introducing joint group assignments or mock team deployments would further enhance teamwork and simulate production environments.
+*   **Would you like to continue this program in the future?**  
+    Yes, I would highly value the opportunity to stay connected with the FCAJ community and assist as a helper or volunteer in future cohorts to support new learners.

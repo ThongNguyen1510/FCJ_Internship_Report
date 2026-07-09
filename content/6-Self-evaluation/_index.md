@@ -6,8 +6,8 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-During my internship at **[Company/Organization Name]** from **[start date]** to **[end date]**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
-I participated in **[briefly describe the main project or task]**, through which I improved my skills in **[list skills: programming, analysis, reporting, communication, etc.]**.  
+During my internship at **First Cloud Journey (FCAJ)** from **17/04/2026** to **10/07/2026**, I had the opportunity to learn, practice, and apply the knowledge acquired in university to a real-world working environment.  
+I participated in **designing and deploying the Automated Serverless Website Monitoring system using Terraform, translating AWS technical blogs, and preparing the VPC Endpoint workshop**, through which I improved my skills in **cloud architectural design, serverless programming, infrastructure as code (Terraform), teamwork, reporting, and technical translation**.  
 
 In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
 
@@ -30,6 +30,6 @@ To objectively reflect on my internship period, I would like to evaluate myself 
 
 ### Needs Improvement
 
-* Strengthen discipline and strictly comply with the rules and regulations of the company or any organization  
-* Improve problem-solving thinking  
-* Enhance communication skills in both daily interactions and professional contexts, including handling situations effectively
+*   **Discipline:** Strictly comply with the rules and deployment schedules of the organization. Focus on automated CI/CD practices to minimize manual staging mismatches.
+*   **Problem-Solving:** Enhance structural analysis and error-tracing logic, particularly when debugging distributed microservices and IAM access policies.
+*   **Communication:** Improve communication loops and technical documentation clarity to report progress more proactively to mentors.

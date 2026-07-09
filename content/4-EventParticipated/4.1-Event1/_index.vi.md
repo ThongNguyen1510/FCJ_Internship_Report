@@ -6,116 +6,59 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+# FCAJ Community Day
 
-### Mục Đích Của Sự Kiện
+### Thông tin sự kiện
+*   **Tên sự kiện:** FCAJ Community Day
+*   **Thời gian:** Thứ Bảy, ngày 21 tháng 3, từ 9:00 AM đến 12:00 PM (GMT+7)
+*   **Địa điểm:** Tòa nhà Bitexco Financial Tower, Thành phố Hồ Chí Minh
+*   **Mục tiêu:** Cập nhật các xu hướng và công nghệ mới nhất về Platform Engineering, GenAIOps, Phát triển phần mềm bằng AI Agent, Generative AI đa phương thức cấp độ doanh nghiệp, và Tối ưu hóa phân phối nội dung từ Biên đến Gốc (Edge-to-Origin).
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+---
 
-### Danh Sách Diễn Giả
+### Chi tiết các phiên thảo luận
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+#### ☁️ 09:00 - 09:45 AM | Building Modern Platform Engineering & Career Pathways
+*   **Văn hóa doanh nghiệp & Cơ hội:** Giới thiệu về văn hóa làm việc, các chương trình thực tập và lộ trình phát triển sự nghiệp trong ngành điện toán đám mây.
+*   **Tổng quan về Platform Engineering:** Phân tích sự chuyển dịch từ DevOps truyền thống sang Platform Engineering. Tìm hiểu cách xây dựng Cổng thông tin nội bộ cho nhà phát triển (Internal Developer Platforms - IDP) để tối ưu hóa hiệu suất làm việc và rút ngắn thời gian bàn giao sản phẩm.
+*   **Phiên Q&A tương tác:** Trao đổi trực tiếp với các chuyên gia đầu ngành về nhu cầu tuyển dụng, các kỹ năng cần thiết và định hướng sự nghiệp Cloud/DevOps.
 
-### Nội Dung Nổi Bật
+#### ☁️ 09:45 - 10:15 AM | GenAIOps Essential - DevOps for Generative AI Applications
+*   **Nền tảng DevOps trên AWS:** Tóm tắt các tài nguyên học tập và quy trình DevOps cơ bản khi vận hành các ứng dụng AI/ML trên AWS.
+*   **Quy trình GenAIOps trong thực tế:** Chia sẻ các case study thực tế về cách thiết lập luồng CI/CD và triển khai tự động các mô hình ngôn ngữ lớn (LLM).
+*   **Các công nghệ cốt lõi:** Thực hành tích hợp các dịch vụ **Amazon Bedrock** (quản lý Agent), **Amazon EKS** (chạy hạ tầng container), **Core Observability** (giám sát hệ thống) và công cụ **Langfuse** (đo lường chi phí prompt, độ trễ và chất lượng phản hồi).
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+#### ☁️ 10:15 - 10:45 AM | Shipping Code in the Agentic Era
+*   **Bài toán thực tế:** Những khó khăn trong việc kiểm soát chất lượng mã nguồn, tự động hóa kiểm thử và quản lý rủi ro khi lập trình có sự hỗ trợ của AI.
+*   **Hệ thống công cụ:** Giới thiệu các AI coding agents tự động, trợ lý IDE thông minh và nền tảng điều phối luồng công việc.
+*   **Cẩm nang tăng năng suất:** Phương pháp tích hợp hiệu quả AI Agent vào dự án thực tế thông qua Prompt Engineering và thiết lập các rào chắn bảo mật (guardrails).
+*   **Demo trực tiếp:** Trình diễn quy trình một AI Agent tự động viết code, chạy unit test cục bộ, tự sửa lỗi cú pháp và khởi tạo Pull Request hoàn chỉnh trên GitHub.
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+#### ☕ 10:45 - 11:00 AM | Giải lao (Break)
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+#### ☁️ 11:00 - 11:30 AM | Production-Grade Multimodal GenAI on AWS
+*   **Kiến trúc ứng dụng AI thế hệ mới:** Bản vẽ thiết kế kết hợp giữa lớp giao diện, bộ điều phối (orchestrators), cơ sở dữ liệu vector và các mô hình nền tảng.
+*   **Tìm kiếm đa phương thức (Multimodal Search):** Ứng dụng mô hình **Amazon Nova Embeddings** để xử lý và tìm kiếm ngữ nghĩa đồng thời trên dữ liệu văn bản, hình ảnh và video.
+*   **GraphRAG cho kho tri thức doanh nghiệp:** Kết hợp kỹ thuật RAG truyền thống với Cơ sở dữ liệu đồ thị (Graph Database như Amazon Neptune) giúp LLM truy xuất thông tin có cấu trúc logic và chính xác tuyệt đối.
+*   **Quy trình Multi-Agent:** Thiết lập hệ thống nhiều AI Agent chuyên biệt tự động tương tác để giải quyết nghiệp vụ phức tạp.
+*   **Khả năng giám sát & An toàn:** Cấu hình Bedrock Guardrails để lọc nội dung độc hại và ghi log bảo mật thời gian thực.
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+#### ☁️ 11:30 AM - 12:00 PM | From Edge To Origin: CloudFront as Your Foundation
+*   **Amazon CloudFront cho mọi loại tải:** Phân phối các tệp tĩnh, API động và truyền phát video chất lượng cao trên phạm vi toàn cầu.
+*   **Tối ưu hóa chi phí:** Tận dụng bộ nhớ đệm (caching) tại các điểm biên (Edge Locations), tính năng Origin Shield và nén dữ liệu tự động để giảm thiểu tối đa chi phí truyền dữ liệu ra internet (Outbound Data Transfer).
+*   **Tích hợp bảo mật:** Cấu hình AWS Shield chống tấn công DDoS và AWS WAF bảo mật lớp ứng dụng ngay tại điểm biên trước khi truy cập vào máy chủ gốc (Origin).
+*   **Độ tin cậy & Hiệu suất:** Định tuyến lưu lượng truy cập qua mạng xương sống của AWS để giảm thiểu độ trễ vật lý và tăng cường khả năng dự phòng sự cố.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+---
 
-#### Domain-Driven Design (DDD)
+### Những gì học được
+1.  **Dịch chuyển công nghệ:** DevOps đang phát triển mạnh mẽ theo hướng Platform Engineering giúp các lập trình viên tập trung viết code mà không cần bận tâm quá nhiều về hạ tầng phức tạp bên dưới.
+2.  **Giám sát GenAI:** Vận hành GenAI trên production bắt buộc phải có các công cụ quan sát chuyên dụng như Langfuse và Bedrock Guardrails để kiểm soát chặt chẽ độ chính xác và chi phí API phát sinh.
+3.  **Tư duy lập trình mới:** Lập trình viên trong tương lai cần nâng cao kỹ năng điều phối, đánh giá và xác thực mã nguồn do AI Agent tạo ra thay vì chỉ viết code thủ công.
+4.  **GraphRAG:** Việc kết hợp đồ thị tri thức (Knowledge Graph) là xu hướng tất yếu để giải quyết triệt để lỗi "ảo tưởng" (hallucination) của LLM trong doanh nghiệp.
+5.  **Bảo mật từ biên:** Cấu hình CloudFront kết hợp WAF giúp chặn đứng các truy cập độc hại từ sớm, bảo vệ tối đa tài nguyên máy chủ gốc.
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
-
-#### Event-Driven Architecture
-
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
-
-#### Amazon Q Developer
-
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
-
-### Những Gì Học Được
-
-#### Tư Duy Thiết Kế
-
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
-
-#### Kiến Trúc Kỹ Thuật
-
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
-
-#### Chiến Lược Hiện Đại Hóa
-
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
-
-### Ứng Dụng Vào Công Việc
-
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
-
-### Trải nghiệm trong event
-
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
-
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
-
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
-
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
-
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
-
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
-
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+### Ứng dụng vào công việc
+*   **Tích hợp API:** Nghiên cứu tích hợp các API của Amazon Bedrock vào các script Lambda tự động để xử lý sự cố nâng cao.
+*   **Giám sát CloudWatch:** Thiết lập các Dashboard cảnh báo chi tiết để theo dõi lưu lượng truy cập và hiệu năng của các API.
+*   **Bảo mật biên:** Áp dụng mô hình CloudFront CDN làm lá chắn bảo mật lớp ứng dụng cho các API giám sát website.

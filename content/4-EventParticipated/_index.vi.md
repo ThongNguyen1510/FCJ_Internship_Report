@@ -6,37 +6,31 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-> Trong phần này, các bạn cần liệt kê và mô tả chi tiết các sự kiện (event) mà mình đã tham gia trong suốt quá trình thực tập hoặc làm việc. 
-> 
-> Mỗi sự kiện nên được trình bày theo định dạng Event 1, Event 2, Event 3…, kèm theo các thông tin:
-> * Tên sự kiện
-> * Thời gian tổ chức
-> * Địa điểm (nếu có)
-> * Vai trò của bạn trong sự kiện (người tham dự, hỗ trợ tổ chức, diễn giả, v.v.)
-> * Mô tả ngắn gọn nội dung và hoạt động chính trong sự kiện
-> * Kết quả hoặc giá trị đạt được (bài học, kỹ năng mới, đóng góp cho nhóm/dự án)
-> * Việc liệt kê này giúp thể hiện rõ sự tham gia thực tế của bạn, cũng như các kỹ năng mềm và kinh nghiệm bạn đã tích lũy qua từng sự kiện.
+Trong suốt quá trình thực tập, em đã tham gia hai sự kiện công nghệ lớn do First Cloud Journey (FCAJ) tổ chức. Đây là những cơ hội quý giá giúp em tiếp thu các kiến thức chuyên sâu về Platform Engineering, GenAIOps, kỷ nguyên Agentic AI và các nguyên lý tối ưu hóa phân phối CloudFront hiện đại.
 
+---
 
-Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh khắc rất tuyệt vời.
+### [Event 1: FCAJ Community Day](4.1-Event1/)  
+&emsp;**Tên sự kiện:** FCAJ Community Day  
+&emsp;**Thời gian:** Thứ Bảy, ngày 21 tháng 3, từ 9:00 AM đến 12:00 PM  
+&emsp;**Địa điểm:** Tòa nhà Bitexco Financial Tower, Thành phố Hồ Chí Minh  
+&emsp;**Vai trò trong sự kiện:** Người tham dự  
+&emsp;**Nội dung chính:** Quy trình Platform Engineering, áp dụng GenAIOps trên AWS sử dụng Bedrock, EKS và Langfuse, quy trình sinh mã nguồn bằng Agentic AI, giải pháp GraphRAG kết hợp đồ thị tri thức cho doanh nghiệp và bảo mật CDN với CloudFront.
 
-### [Event 1](4.1-Event1/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
+---
 
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
+### [Event 2: FCAJ Community Day - Conference Call](4.2-Event2/)  
+&emsp;**Tên sự kiện:** FCAJ Community Day - Conference Call  
+&emsp;**Thời gian:** Thứ Bảy, ngày 23 tháng 5, từ 9:00 AM đến 12:00 PM  
+&emsp;**Địa điểm:** Tầng 36, tòa nhà Bitexco Financial Tower, Thành phố Hồ Chí Minh  
+&emsp;**Vai trò trong sự kiện:** Người tham dự  
+&emsp;**Nội dung chính:** Vai trò của ngữ cảnh đối với AI (Bộ não thứ hai), kinh nghiệm thực tế tại cuộc thi lập trình hackathon LotusHacks (Dự án UTMorpho), tối ưu hóa cấu hình CloudFront CDN, tính phi định tính của LLM trên production và hệ thống Multi-Agent cấp doanh nghiệp.
 
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+---
 
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
-
-
-
-### [Event 2](4.2-Event2/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
-
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
-
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
-
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
-
+### [Event 3: FCAJ Community Day](4.3-Event3/)  
+&emsp;**Tên sự kiện:** FCAJ Community Day (Phiên bản tháng 6)  
+&emsp;**Thời gian:** Thứ Bảy, ngày 27 tháng 6, từ 9:00 AM đến 12:00 PM  
+&emsp;**Địa điểm:** Tòa nhà Bitexco Financial Tower, Thành phố Hồ Chí Minh  
+&emsp;**Vai trò trong sự kiện:** Người tham dự  
+&emsp;**Nội dung chính:** Tự động xử lý sự cố đám mây (Deep Response Engine), trợ lý thoại AI ở quy mô lớn (Nova Sonic), đại lý vận hành AWS DevOps Agent, hoạch định nhân lực doanh nghiệp qua Amazon Quick và mạng riêng bảo mật cho kết nối MCP.
