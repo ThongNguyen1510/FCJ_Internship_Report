@@ -31,4 +31,6 @@ To simulate a website failure and test the alerting email functionality:
 1. Update `target_url` in `main.tf` to an invalid URL, e.g. `default = "https://www.google.com/link-bi-loi-404"`.
 2. Apply the change: `terraform apply`.
 3. Trigger a manual check: `aws lambda invoke --function-name WebsiteMonitorFunction response.json`.
-4. Validate that you instantly receive a notification email warning of the HTTP 404 failure.
+4. Validate that you instantly receive a notification email warning of the HTTP 404 failure:
+
+![Failed website email alert](/images/5-Workshop/test_alert_email.png)

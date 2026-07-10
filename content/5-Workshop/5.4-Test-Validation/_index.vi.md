@@ -31,4 +31,6 @@ Bảng dữ liệu hiển thị lịch sử thời gian đo lường (`timestamp
 1. Mở file `main.tf`, sửa URL mặc định thành một URL bị lỗi (ví dụ: `default = "https://www.google.com/link-bi-loi-404"`).
 2. Chạy lệnh cập nhật: `terraform apply`.
 3. Ép chạy Lambda ngay lập tức bằng lệnh: `aws lambda invoke --function-name WebsiteMonitorFunction response.json`.
-4. Hệ thống sẽ ghi nhận lỗi status 404 và ngay lập tức gửi một email cảnh báo chi tiết về sự cố vào hộp thư bạn đã đăng ký.
+4. Hệ thống sẽ ghi nhận lỗi status 404 và ngay lập tức gửi một email cảnh báo chi tiết về sự cố vào hộp thư bạn đã đăng ký:
+
+![Hộp thư cảnh báo lỗi website](/images/5-Workshop/test_alert_email.png)
