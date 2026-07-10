@@ -30,6 +30,6 @@ The weekly progression is outlined below:
 
 **Week 10:** [Study Docker, ECS, CodePipeline, and deploy the monitor system using Terraform](1.10-week10/)
 
-**Week 11:** [Study cost optimization (Athena/Glue) and draft the VPC Endpoint Workshop guide](1.11-week11/)
+**Week 11:** [Study cost optimization (Athena/Glue) and configure VPC Gateway Endpoints](1.11-week11/)
 
-**Week 12:** [Host the VPC Endpoint Workshop, gather feedback, self-assess, and present final report](1.12-week12/)
+**Week 12:** [Perform end-to-end testing, compile reports, self-assess, and present final project](1.12-week12/)

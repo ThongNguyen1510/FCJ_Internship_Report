@@ -30,6 +30,6 @@ Nội dung nhật ký các tuần được tóm tắt như sau:
 
 **Tuần 10:** [Nghiên cứu Docker, ECS, CodePipeline và triển khai hạ tầng giám sát bằng Terraform](1.10-week10/)
 
-**Tuần 11:** [Nghiên cứu tối ưu chi phí (Athena/Glue) và soạn giáo án VPC Endpoint Workshop](1.11-week11/)
+**Tuần 11:** [Nghiên cứu tối ưu chi phí (Athena/Glue) và cấu hình VPC Gateway Endpoints bảo mật](1.11-week11/)
 
-**Tuần 12:** [Tổ chức VPC Endpoint Workshop, tổng hợp ý kiến, báo cáo tự đánh giá và thuyết trình tổng kết](1.12-week12/)
+**Tuần 12:** [Kiểm thử toàn diện hệ thống, hoàn thiện báo cáo, tự đánh giá và thuyết trình tổng kết](1.12-week12/)
